@@ -50,6 +50,53 @@
           We need fewer hacks and less complex positioning.
         </aside>
       </section>
+      <!-- Slide 4 -->
+      <section>
+        <h3>Basic Concepts</h3>
+        <ul>
+          <li>Grid container</li>
+          <li>Grid items</li>
+          <li>Tracks</li>
+          <li>Gaps</li>
+        </ul>
+        <aside class="notes">
+          The container holds the grid.
+          Items are placed inside it.
+          Tracks are rows and columns, and gaps create spacing.
+        </aside>
+      </section>
+      <!-- Slide 5 -->
+      <section>
+        <h3>Creating a Grid</h3>
+        <pre><code>
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+  </code></pre>
+        <aside class="notes">
+          To create a grid we set display to grid.
+          Then we define how many columns we want using grid template columns.
+        </aside>
+      </section>
+      <!-- Slide 6 -->
+      <section>
+        <h3>Grid Example</h3>
+
+        <div class="grid-demo">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+          <div class="box">4</div>
+          <div class="box">5</div>
+          <div class="box">6</div>
+        </div>
+
+        <aside class="notes">
+          This is a simple live example.
+          You can see six elements automatically arranged into three columns.
+        </aside>
+      </section>
 
       <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
