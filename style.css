@@ -1,0 +1,16 @@
+ .reveal section {
+   font-size: 26px;
+ }
+
+ .grid-demo {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+   margin-top: 20px;
+ }
+
+ .box {
+   background: #e3e3e3;
+   padding: 20px;
+   border-radius: 8px;
+ }
